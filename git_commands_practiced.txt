@@ -1,0 +1,158 @@
+    1  sudo yum update
+    2  git
+    3  sudo yum install git
+    4  ls ltr
+    5  ls -ltr
+    6  mkdir GitPractice
+    7  cd GitPractice/
+    8  cd Projects
+    9  mkdir Projects
+   10  cd Projects/
+   11  ls -ltr
+   12  vi test.html
+   13  git init
+   14  ls -ltr
+   15  ls -altr
+   16  git status
+   17  git add .
+   18  git commit -m "first commit"
+   19  git status
+   20  git log
+   21  git show
+   22  git remote add origin https://github.com/harishbecs/myrepo
+   23  git push origin master
+   24  git clone https://github.com/harishbecs/myrepo
+   25  ls -ltr
+   26  push test.html
+   27  git push test.html
+   28  git push origin master
+   29  git pull https://github.com/harishbecs/myrepo
+   30  ls -ltr
+   31  git push rigin master
+   32  git push origin master
+   33  git branch testbranch
+   34  git status
+   35  git add myrepo/
+   36  git commit -m "myrepo commit"
+   37  git log
+   38  git status
+   39  git show 34fa744c1111bba451507ef82f0e8025c657d184
+   40  git log
+   41  git show
+   42  git branch
+   43  git checkout testbranch 
+   44  git branch
+   45  git status
+   46  ls -lr
+   47  vi test.html
+   48  git status
+   49  git add 
+   50  git add .
+   51  git status
+   52  ls -ltr
+   53  git branch
+   54  git add .
+   55  git status
+   56  git commit -m "test branch commit" 
+   57  git log
+   58  git show
+   59  git ls-files
+   60  ls -ltr
+   61  vi testFile.txt
+   62  git status
+   63  git ls-files
+   64  git add testFile.txt 
+   65  git ls-files
+   66  git status
+   67  git log
+   68  git show
+   69  git status
+   70  git dif --cached
+   71  git diff --name-only --cached
+   72  git status
+   73  git commit -m "testFile commit" 
+   74  git status
+   75  ls -ltr
+   76  git push -u origin master
+   77  git add --all folder
+   78  git add --all myrepo
+   79  git status
+   80  git diff --name-only --cached
+   81  ls -ltr
+   82  git diff testFile.txt
+   83  git status
+   84  rm -R myrepo/
+   85  y
+   86  ls -ltr
+   87  git status
+   88  git add .
+   89  git status
+   90  git diff --names-only 
+   91  git diff --name-only --cached
+   92  git commit -m "deleted folder"
+   93  git status
+   94  git branch
+   95  git log
+   96  git show
+   97  ls -ltr
+   98  vi testFile.txt 
+   99  ls -ltr
+  100  git status
+  101  git diff testFile.txt
+  102  git --staged testFile.txt
+  103  git diff --staged testFile.txt
+  104  git status
+  105  git add .
+  106  git status
+  107  git diff --staged testFile.txt
+  108  git status
+  109  ls -ltr
+  110  vi testFile.txt 
+  111  git status
+  112  git diff --staged testFile.txt
+  113  git add .
+  114  git status
+  115  git diff --staged testFile.txt
+  116  git diff --name-only --cached
+  117  git status
+  118  git commit -m "changes added "
+  119  git status
+  120  git log
+  121  git show bcac2adf0f684eb16a35baeae0d6e12b4f1579bc
+  122  ls -ltr
+  123  git rm --cached testFile.txt 
+  124  ls -ltr
+  125  git status
+  126  git ls-files
+  127  vi .gitignore
+  128  git satus
+  129  git status
+  130  git add .gitignore
+  131  git diff --names-only --cached
+  132  git diff names-only --cached
+  133  git diff --name-only --cached
+  134  git commit -m "ignore file" 
+  135  git status
+  136  ls -ltr
+  137  gid diff --name-only --cached
+  138  git diff --name-only --cached
+  139  git status
+  140  git log
+  141  git log --oneline
+  142  ls -ltr
+  143  git log --online
+  144  git log --oneline
+  145  git revert 2486e36
+  146  git revert 48cc976
+  147  git status
+  148  git ls-files
+  149  git log
+  150  history
+  151  ls -ltr
+  152  l
+  153  ls -ltr
+  154  cd GitPractice/
+  155  ls -ltr
+  156  cd Projects/
+  157  ls -ltr
+  158  history > git_commands_practiced.txt
